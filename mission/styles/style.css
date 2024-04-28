@@ -1,0 +1,54 @@
+
+
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 3rem;
+    line-height: 2rem;
+    border: 1px solid;
+    border-color: grey;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid;
+    border-color: grey;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+h1 {
+    letter-spacing: .25rem;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size:medium;
+    color: #006EB6;
+    letter-spacing: .25rem;
+    font-weight: lighter;
+}
+
+li {
+    padding-bottom: .75rem;
+}
+
+main {
+    padding-top: 1rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+img {
+    width: 150px;
+}

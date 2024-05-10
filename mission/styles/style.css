@@ -52,3 +52,12 @@ footer {
 img {
     width: 150px;
 }
+
+.dark {
+    color: #d9d9d9;
+    background: #292929;
+}
+
+.dark h2 {
+    color: #A0D4ED;
+}

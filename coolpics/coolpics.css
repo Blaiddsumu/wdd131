@@ -30,6 +30,7 @@ main h2 {
 
 figure {
     border: .5rem solid white;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.474);
 }
 
 footer {

@@ -31,6 +31,7 @@ main h2 {
 figure {
     border: .5rem solid white;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.474);
+    
 }
 
 footer {
@@ -54,7 +55,15 @@ img {
     height: 250px;
     width: 250px;
     object-fit: cover;
+    display: block;
 }
+
+/*.imgViewer {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+}*/
 
 button {
     background: none;
@@ -62,8 +71,6 @@ button {
     font-family: 'Courier New', Courier, monospace;
     color:rgb(235, 250, 255);
 }
-
-
 
 @media screen and (max-width: 1000px) {
     .gallery{
@@ -91,5 +98,25 @@ button {
     .gallery {
         grid-template-columns: max-content;
     }
+
+    .hide {
+        display: none;
+    }
+
+    /*.viewer {
+        display: grid;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.75);
+        color: white;
+        height: auto;
+        max-height: 100%;
+        top:0;
+        left:0;
+        bottom:0;
+        right:0;
+        grid-template-columns: max-content;
+        justify-content: center;
+    }*/
+
 }
 

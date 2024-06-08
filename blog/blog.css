@@ -2,9 +2,7 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin:0px;
 
-}
-
-.wrapper {
+section {
     display: grid;
     grid-template-columns: auto 1fr .4fr;
     gap: 10px;
@@ -12,7 +10,7 @@ body {
 }
 
 
-.nav {
+header {
    background: rgb(109, 90, 116); 
    grid-column: 1;
    padding: 1rem;
@@ -21,27 +19,39 @@ body {
    color:aliceblue;
 }
 
-.nav div {
-    width: max-content;
-    margin: auto;
-    
-}
-
-.nav p {
+header ul {
     padding: .5rem;
-    border: 2px solid lightblue;
+    margin: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border: 2px solid rgb(211, 236, 244);
     border-radius: 5px;
     background-color: rgba(45, 45, 45, 0.158);
 }
-
-.maincontent {
+header li {
+    list-style-type: none;
+    font-size: 1.25rem;
+}
+header h1 {
+    font-size: 2rem;
+}
+main {
     grid-column: 2;
     border: 5px solid;
     border-color: black;
     padding:1rem;
 }
+main h1 {
+    font-size: 1.5rem;
+}
+main h2 {
+    font-size: 1.25rem;
+}
+main h3 {
+    font-size: 1rem;
+}
 
-.post {
+main section {
     display: grid;
     border: 2px solid;
     border-color: rgb(116, 116, 116);
@@ -88,10 +98,12 @@ img {
 footer {
     color:lightblue;
     background-color: rgb(29, 6, 35);
-    padding: .5rem;
+    padding: 1rem;
+    width: 100%;
+    margin:-.5rem;
+    margin-top: 0;
 }
 
 a {
-    color:  lightblue;
+    color:  rgb(211, 236, 244);
 }
-

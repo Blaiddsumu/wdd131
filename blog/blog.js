@@ -25,3 +25,11 @@ const articles = [
 		stars: '⭐⭐⭐⭐'
 	}
 ]
+
+/* function resizeEvent() {
+	if (window.innerWidth < 500) {ß
+		document.getElementById("sort").remove();
+	}
+}
+ß
+resizeEvent(); */

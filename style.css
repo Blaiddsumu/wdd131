@@ -1,6 +1,58 @@
+body{
+   background-color:rgb(96, 75, 98);
+   color:rgb(224, 250, 255);
+   font-family: 'Courier New', Courier, monospace;
+}
 main {
    padding:1rem; 
 }
 
+.header {
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+.dancers {
+   width: max-content;
+   background-color: aliceblue;
+   border: rgb(62, 118, 168) solid 4px;
+}
+.dancers section {
+   display: inline;
+   padding-left: 1.5rem;
+   padding-right: 1.5rem;
+}
+
 h1 {
+   text-align: center;
+}
+
+.assignments {
+   text-align: center;
+}
+.assignments a {
+   font-weight: bold;
+   text-decoration: none;
+   padding: 1rem;
+   background-color: aliceblue;
+   border-radius: 3px;
+   color:rgb(96, 75, 98);
+   border: solid 3px;
+   border-color: transparent;
+
+}
+.assignments a:visited {
+   color:rgb(158, 109, 36);
+}
+.assignments a:hover {
+   border: solid 3px;
+   border-color: aqua;
+}
+
+a {
+   color:aliceblue;
+}
+
+a:visited {
+   color:antiquewhite;
 }

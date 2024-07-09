@@ -26,10 +26,4 @@ const articles = [
 	}
 ]
 
-/* function resizeEvent() {
-	if (window.innerWidth < 500) {ß
-		document.getElementById("sort").remove();
-	}
-}
-ß
-resizeEvent(); */
+// articles.forEach((article) => article.ages);

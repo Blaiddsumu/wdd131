@@ -1,10 +1,10 @@
 
-/* thinngs to talk about when getting help:
-    - how to get width of header to change - the spacing issue on desktop size. may also solve the weird indent thing on the nav links
+/* 
+    thinngs to talk about when getting help:
     - why is the color not changing while hovering despite the background properly doing so
     - also make the entire element clickable instead of just the text? it's. hrm. yeah
-    */
-
+    
+*/
 
 
 @import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato|Wittgenstein");
@@ -13,7 +13,6 @@ body {
     margin: 0 auto;
     font-size: 18px;
     background-color: #fffdf3;
-    
 }
 
 img {
@@ -173,8 +172,9 @@ footer img {
         max-width:100%;
     }
     .maincontent {
-        display: flex;
+        display: grid;
         margin: 1rem;
+        grid-template-columns: .75fr auto;
     }
     header {
         flex-direction: column;
@@ -204,7 +204,6 @@ footer img {
     article {
         margin-left: 1.5rem;
         background-color: #b3d5af81;
-        border-radius: 3px;
         padding: .5rem;
     }
     article h4 {
@@ -252,6 +251,10 @@ footer img {
     nav a {
         text-decoration: none;
     }
+    nav li:hover > a {
+        background-color: #420C14;
+        color:#fffdf3;
+    }
 
     ul {
         line-height: 2em;
@@ -261,17 +264,21 @@ footer img {
     }
     li {
         border:none;
-        padding-top: .5rem;
+        text-align: center;
         }
+    li a {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 
    
-    .dragoninfo section {
+    article section {
         display:flex;
         width: auto;
         margin-right: 0px;
     }
 
-    .dragoninfo p {
+    article p {
         margin-top: 0px;
         margin-bottom: 0px;
         /* border: 3px solid #ABA25F;
@@ -280,7 +287,7 @@ footer img {
         max-height: max-content; */
     }
 
-    .dragoninfo img {
+    article img {
         margin: 0px;
         width: 300%;
     }

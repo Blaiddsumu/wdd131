@@ -1,7 +1,7 @@
-import { conLight } from "./dragons.js";
-import { conHeav } from "./dragons.js";
+import { unconAq } from "./dragons.js";
+import { unconNonAq } from "./dragons.js";
 
-conLight.forEach((dragon) => {
+unconAq.forEach((dragon) => {
     const article = document.createElement("article");
     const p = document.createElement("p");
     p.innerHTML = `
@@ -12,10 +12,11 @@ conLight.forEach((dragon) => {
 
     article.appendChild(p);
     article.classList.add("dragoninfo")
-    document.querySelector('#light').appendChild(article);
+    document.querySelector('#aquatic').appendChild(article);
 });
 
-conHeav.forEach((dragon) => {
+
+unconNonAq.forEach((dragon) => {
     const article = document.createElement("article");
     const p = document.createElement("p");
     p.innerHTML = `
@@ -26,5 +27,6 @@ conHeav.forEach((dragon) => {
 
     article.appendChild(p);
     article.classList.add("dragoninfo")
-    document.querySelector('#heavy').appendChild(article);
+    document.querySelector('#nonaquatic').appendChild(article);
 });
+

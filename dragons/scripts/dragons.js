@@ -3,7 +3,6 @@ const dragons = [
         type: "Conventional",
         subtype: "Light",
         name: "Mountain Red",
-        // this is for percy and quincy
         info: "blah blah info here",
         imageMain: "resources/dragon_images/quincy.png",
         image2: ""
@@ -90,3 +89,5 @@ const dragons = [
     // }
     // etc
 ]
+
+export { dragons };

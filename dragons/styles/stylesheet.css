@@ -24,14 +24,17 @@ main img {
     width: 100%;
     border-radius: 3px;
 }
+main {
+    margin-bottom: 1rem;
+}
 
-header{
+header {
     max-width: 100%;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
 }
+
 header section {
     display:flex;
     color: #fffdf3;

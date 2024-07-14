@@ -154,8 +154,18 @@ footer img {
     display: none;
 }
 
+#randomDerg article {
+    margin:1rem;
+    margin-left: 2rem;
+    display: inline-block;
+}
+#randomDerg p {
+    display: block;
+}
 
-
+#randomDerg img {
+    max-width: 100%;
+}
 
 
 

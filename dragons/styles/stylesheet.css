@@ -1,0 +1,309 @@
+
+/* 
+    thinngs to talk about when getting help:
+    - why is the color not changing while hovering despite the background properly doing so
+    - also make the entire element clickable instead of just the text? it's. hrm. yeah
+    
+*/
+
+
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato|Wittgenstein");
+
+body {
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: #fffdf3;
+}
+
+img {
+    display: block;
+    margin: 0;
+}
+
+main img {
+    width: 100%;
+    border-radius: 3px;
+}
+main {
+    margin-bottom: 1rem;
+}
+
+header {
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header section {
+    display:flex;
+    color: #fffdf3;
+    justify-content: center;
+}
+
+button {
+    margin-right: 1rem;
+    border:none;
+    font-size: larger;
+    color:#fffdf3;
+    background: none;
+    max-height: max-content;
+}
+
+div a {
+    background-color: #B3D5AF;
+    color:#420C14;
+    padding: 3px;
+    border: 2px solid #ABA25F;
+    text-decoration: none;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    margin-right:1rem;
+    margin-left:1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "IM Fell French Canon SC";
+}
+h2 {
+    text-align: center;
+}
+h3{
+    padding-left: 1rem;
+}
+hr {
+    height: 3px;
+    margin: 35px 0;
+    background: #FCFBED;
+}
+header {
+    padding: 1em;
+    text-align: center;
+    background: #420C14;
+    width: 100%;
+}
+header h1{
+    margin-top:2rem;
+}
+p {
+    font-family: "Wittgenstein";
+    color: #420C14;
+    margin: 1rem;
+}
+
+nav {
+    background-color: #ABA25F;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    border: 3px solid #B3D5AF;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    background-color: #b3d5af84;
+}
+li {
+    border: 3px solid #420C14;
+    text-indent: none;
+}
+
+li:nth-child(2),li:nth-child(3) {
+    border-top: 0px;
+}
+
+nav a {
+    min-width: 120px;
+    padding: 10px;
+}
+nav a:link,
+nav a:visited {
+    color: #420C14;
+}
+nav li:hover {
+    background-color: #420C14;    
+    color: #fffdf3;
+}
+
+
+footer {
+    margin: 0px;
+    color: #B3D5AF;
+    background-color: #B3D5AF;
+    display: flex;
+    width:100vw;
+    height: max-content;
+}
+footer p {
+    margin: 0px;
+    padding: .5rem;
+}
+footer img {
+    display:inline;
+}
+
+.hide {
+    display: none;
+}
+
+#randomDerg article {
+    margin:1rem;
+    margin-left: 2rem;
+    display: inline-block;
+}
+#randomDerg p {
+    display: block;
+}
+
+#randomDerg img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1000px){
+    body {
+        max-width:100%;
+    }
+    .maincontent {
+        display: grid;
+        margin: 1rem;
+        grid-template-columns: .75fr auto;
+    }
+    header {
+        flex-direction: column;
+        padding-top: 0;
+        height: max-content;
+        width: max-content;
+    }
+
+    main img {
+        width: 100%;
+        border-radius: 3px;
+        margin: .5rem;
+    }
+    .main {
+        display: flex;
+        flex-direction: row-reverse;
+        border: 2px solid #ABA25F;
+        border-radius: 3px;
+        margin: 0px;
+        margin-left: 1rem;
+        background-color: white;
+    }
+    .main section:nth-child(2) {
+        margin-bottom:1rem;
+    }
+
+    article {
+        margin-left: 1.5rem;
+        background-color: #b3d5af81;
+        padding: .5rem;
+    }
+    article h4 {
+        margin-top: 0px;
+        max-width: fit-content;
+        color: #fffdf3;
+        background-color:#420C14;
+        border-radius: 3px;
+        padding: .5rem;
+    }
+    
+    div a {
+        background-color: #B3D5AF;
+        color:#420C14;
+        padding: 3px;
+        border: 2px solid #ABA25F;
+        text-decoration: none;
+        border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        margin-right:3rem;
+        margin-left:3rem;
+        
+    }
+    div a:hover {
+        background-color: #420C14;
+        color:#fffdf3;
+    }
+    button{
+        display:none;
+        padding:0px;
+        margin:0px;
+    }
+    nav {
+        background-color: #ABA25F;
+        text-align: center;
+        font-size: 1.2em;
+        display: flex;
+        justify-content: center;
+        border:none;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        text-align: left;
+    }
+    nav a {
+        text-decoration: none;
+    }
+    nav li:hover > a {
+        background-color: #420C14;
+        color:#fffdf3;
+    }
+
+    ul {
+        line-height: 2em;
+        list-style: none;
+        padding: 0px;
+        background-color: transparent;
+    }
+    li {
+        border:none;
+        text-align: center;
+        }
+    li a {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+   
+    article section {
+        display:flex;
+        width: auto;
+        margin-right: 0px;
+    }
+
+    article p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        /* border: 3px solid #ABA25F;
+        border-radius: 3px;
+        padding: .5rem;
+        max-height: max-content; */
+    }
+
+    article img {
+        margin: 0px;
+        width: 300%;
+    }
+    
+
+}

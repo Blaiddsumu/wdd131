@@ -201,6 +201,7 @@ footer img {
         border-radius: 3px;
         margin: .5rem;
     }
+    
     .main {
         display: flex;
         flex-direction: row-reverse;
@@ -213,7 +214,12 @@ footer img {
     .main section:nth-child(2) {
         margin-bottom:1rem;
     }
-
+    .main section:nth-child(2) img {
+        height: min-content;
+    }
+    .info {
+        max-width:20%;
+    }
     article {
         margin-left: 1.5rem;
         background-color: #b3d5af81;

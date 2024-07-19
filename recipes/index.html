@@ -3,19 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recipe Book</title>
     <script src="recipes/scripts/main.js"></script>
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="recipes.css">
+    <meta property="og:title" content="Recipe Book">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="A collection of recipes">
 </head>
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <h1><img src="images/recipe-book.png" alt="Recipe Book"> Recipe Book</h1>
+        <!-- put the Find A Recipe thingy here -->
+        <section class="separator">
+            <section class="search">
+                <p>Find a Recipe</p><img src="images/search.svg" alt="">
+            </section>
+        </section>
+    </header>
+    <main>
+        <!-- recipe article -->
+        <section class="maincontent">
 
+            <img src="images/apple-crisp.jpg" alt="apple crisp">
+            <section class="textcontent">
+                <section class="tags"><span>tags</span><span>another tag</span></section>
+                <h2>Recipe Title</h2>
+                <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star-empty">⭐</span>
+                    <span aria-hidden="true" class="icon-star-empty">☆</span>
+                </span>
+                <p class="recipe-description">description & recipe</p>
+            </section>
+        </section>
+        <!-- recipe article end -->
+    </main>
 
-
-
-    <footer><a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a></footer>
+    <footer>
+        <div class="social">
+            <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
+            <a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a>
+            <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon"></a>
+            <a href="#"><img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
+        </div>
+        <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
+    </footer>
 
 </body>
 </html>
